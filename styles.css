@@ -1,0 +1,74 @@
+.main{
+	width: 100%;
+}
+.child{
+	width: 20%;
+    height: auto;
+	border: 2px solid #848484;
+	text-align: center;
+	
+	box-shadow: 0px 8px 8px -8px #000;
+	margin-bottom: 1%;
+    background: linear-gradient(to right, #1e9600, #fff200, #ff0000);
+}
+.child1{
+	width: 75%;
+    height: auto;
+	border: 2px solid #848484;
+	text-align: left;
+	border: 10%;
+    padding: 30px;
+	box-shadow: 0px 8px 8px 8px #000;
+	margin-bottom: 1%;
+    background-color: #FFFFFF;
+	background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 33%, #FF0000 66%, #ffffff 100%);
+    margin-left: 5px;
+}
+.details{
+	display: flex;
+}
+.child img{
+    width: 30%;
+}
+.contact{
+	width: 50px;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    border-radius: 70%;
+    
+}
+.enlarge:hover , h3:hover{
+	transform: scaleY(3);
+	transition: width 2s, height 4s;
+	color: white;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+.child{
+	width: 100%;
+
+}
+h2{
+	color: #0101df;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.child{
+		width: 48%;
+
+	}
+	h2{
+		color: #80ff00;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
+	.child{
+		width: 48%;
+
+	}
+	h2{
+		color: red;
+	}
+}
